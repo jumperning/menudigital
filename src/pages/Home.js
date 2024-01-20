@@ -7,7 +7,7 @@ const Home = () => {
 	const { currentUser } = useContext(AuthContext)
 
 	useEffect(() => {
-		document.title = 'Delimenú - Home'
+		document.title = 'MAx - Home'
 	}, [])
 
 	if (currentUser) {
